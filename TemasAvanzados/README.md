@@ -7,4 +7,5 @@ Este modulo profundiza en temas avanzados de Python, como:
 * **Funciones Lambda** 
 * **Funciones _map()_, _filter()_ y _reduce()_ junto con lambda** 
 * **Ordenamiento en Python con el método _sorted()_**
-* **Generadores**
+* **Generadores y expresiones generadoras**
+* **Decoradores**
