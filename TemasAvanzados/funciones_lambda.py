@@ -25,7 +25,7 @@ pares= list(filter(lambda x : x % 2 == 0, numeros))
 
 print(f'Resultado de usar filter para buscar los pares : {pares}')
 
-# reduce y map
+# reduce y lambda
 suma_iterativa = reduce(lambda x, y: x + y, numeros)
 
 print(f'Suma acumulativa aplicando reduce: {suma_iterativa}')

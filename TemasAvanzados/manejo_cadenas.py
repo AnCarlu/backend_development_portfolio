@@ -17,6 +17,8 @@ resultado_multiplicacion_cadenas= cadena*3
 print(f'Resultado multiplicción de cadenas: {resultado_multiplicacion_cadenas}')
 
 #Limpiar con función strip
+
 cadena = '    Hola mundo   '
 cadena_limpia=cadena.strip()
+
 print(cadena_limpia)

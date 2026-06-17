@@ -9,8 +9,10 @@ def dividir(numerador, denominador):
         print(f'No es posible dividir entre 0')
     except TypeError:
         print("Los operandos deben ser numéricos")
+    else:
+        print('No ocurrió ningún error')
     finally:
-        print('Se termina de procesar las excepciones')
+        print('Se termina de procesar las excepciones\n')
 
 dividir(10,2)
 dividir(10,0)
@@ -25,7 +27,7 @@ def dividir2(numerador, denominador):
         resultado = numerador/denominador
         print(f'Resultado de la división : {resultado}')
     except Exception as e:
-        print(f'Ocurrió un error: {e}')
+        print(f'Ocurrió un error: {e}\n')
     
 dividir2(10,2)
 dividir2(10,0)

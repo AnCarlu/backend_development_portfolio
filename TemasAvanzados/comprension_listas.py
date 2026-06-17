@@ -13,5 +13,5 @@ for numero in numeros:
 print(f'Numeros pares del 1 al 10: {numeros_pares}')
 
 #Usando comprension de listas
-numeros_pares=[numero+1 for numero in numeros if numero % 2 == 0]
+numeros_pares=[numero for numero in numeros if numero % 2 == 0]
 print(f'Numeros pares del 1 al 10: {numeros_pares}')
