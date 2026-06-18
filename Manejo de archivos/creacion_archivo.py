@@ -3,7 +3,6 @@
 nombre_archivo= 'miarchivo.txt'
 
 #Abrir archivo en modo escritura 
-
 with open(nombre_archivo, 'w') as archivo:
     archivo.write('Hola como estas\n')
     archivo.write('Añadiendo información al archivo\n')
