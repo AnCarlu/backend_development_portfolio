@@ -1,0 +1,4 @@
+1,Patatas,70
+2,Refresco,50
+3,Sandwich,120
+4,Caramelo,5.0

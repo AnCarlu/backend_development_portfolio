@@ -1,6 +1,6 @@
 import os.path
 
-from maquina_snacks_proyect.snack import Snack
+from snack import Snack
 
 class ServicioSnacks:
     nombre_archivo = 'snacks.txt'
@@ -11,7 +11,7 @@ class ServicioSnacks:
         #Revisar si ya existe el archivo de snacks
         #Si ya existe se obtienen los snacks del archivo
         if os.path.isfile(self.nombre_archivo):
-            self.snacks = self.obtener_sancks()
+            self.snacks = self.obtener_snacks()
         #Si no existe cargamos alguno snacks iniciales
         else:
             self.cargar_snacks_iniciales()

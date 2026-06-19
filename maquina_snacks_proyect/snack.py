@@ -12,4 +12,4 @@ class Snack:
         f'precio = {self.precio}')
     
     def escribir_snack(self):
-        return f'{self-self.id_snack}, {self.nombre}, {self.precio}'
+        return f'{self.id_snack},{self.nombre},{self.precio}'
