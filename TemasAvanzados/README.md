@@ -13,5 +13,6 @@ Este modulo profundiza en temas avanzados de Python, como:
 * **Generadores y expresiones generadoras**
 * **Decoradores** entre ellos el decorador _property_ 
 * **Contenedores**
+* **Polimorfismo**
 * **Funcion _sum()_ y _next()_**
 * **Manejo de excepciones**
