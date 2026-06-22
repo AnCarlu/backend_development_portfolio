@@ -12,5 +12,6 @@ Este modulo profundiza en temas avanzados de Python, como:
 * **Ordenamiento en Python con el método _sorted()_**
 * **Generadores y expresiones generadoras**
 * **Decoradores** entre ellos el decorador _property_ 
+* **Contenedores**
 * **Funcion _sum()_ y _next()_**
 * **Manejo de excepciones**
