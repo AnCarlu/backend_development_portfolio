@@ -23,7 +23,7 @@ def dividir2(numerador, denominador):
     try:
          #Revisamos si el denominador es = 0
         if denominador == 0:
-            raise Exception('El denominador es igual a 0')
+            raise ZeroDivisionError('El denominador es igual a 0')
         resultado = numerador/denominador
         print(f'Resultado de la división : {resultado}')
     except Exception as e:
