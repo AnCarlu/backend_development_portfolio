@@ -15,4 +15,4 @@ Este modulo profundiza en temas avanzados de Python, como:
 * **Contenedores**
 * **Polimorfismo**
 * **Funcion _sum()_ y _next()_**
-* **Manejo de excepciones**
+* **Manejo de excepciones y excepciones personalizadas**
